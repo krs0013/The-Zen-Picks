@@ -9,7 +9,7 @@
 		<!-- <link rel="stylesheet" media="(max-width:600px)" href="css/style_max_width_600.css"> -->
     	<!-- <link rel="stylesheet" media="(min-width:601px)" href="weather-2-large.css"> -->
         <!-- <link rel="stylesheet" href="http://cycleatlanta.org/css/bootstrap-responsive.min.css"> -->
-		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/style_old.css" />
 		<!-- <link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.example.com/page-1" > -->
 		<!-- Use this for the mobile site: <link rel="canonical" href="http://www.example.com/page-1" > -->
 
