@@ -47,23 +47,41 @@
 				<tr height="auto"><td>
 					<center>
 					<form method="post" action="send_message.php" style="margin-top:20px;">
-						<div style="color:#fff;">Username: </div>
+						<div style="color:#fff;">Create a username: </div>
 						<input name="username" id="user-pwd" type="text"/><br><br>
-						<div style="color:#fff;">Password: </div>
+						<div style="color:#fff;">Create a password: </div>
 						<input name="password" id="user-pwd" type="password"/><br><br>
-						<input type="submit" value="Login">
+						<div style="color:#fff;">Confirm password: </div>
+						<input name="password_confirm" id="user-pwd" type="password"/><br><br><br><br>
+
+						<div style="color:#fff;">Select two security questions: </div>
+						<select name="security_question_1" style="margin:1%;">
+				  			<option value="temp" selected="selected">(Security Question 2)</option>
+				  			<option value="born">Where were you born?</option>
+				  			<option value="maiden">What is your mothers maiden name?</option>
+				  			<option value="friend">What is your best friends name?</option>
+				  			<option value="team">What is your favorite team?</option>
+				  			<option value="mother_born">Where was your mother born?</option>
+				  			<option value="father_born">Where was your father born?</option>
+						</select> <br>
+						<input name="security_answer_1" id="user-pwd" type="text" placeholder="Answer 1..."/><br><br>
+						<select name="security_question_2" style="margin:1%;">
+				  			<option value="temp" selected="selected">(Security Question 2)</option>
+				  			<option value="born">Where were you born?</option>
+				  			<option value="maiden">What is your mothers maiden name?</option>
+				  			<option value="friend">What is your best friends name?</option>
+				  			<option value="team">What is your favorite team?</option>
+				  			<option value="mother_born">Where was your mother born?</option>
+				  			<option value="father_born">Where was your father born?</option>
+						</select> <br>
+						<input name="security_answer_2" id="user-pwd" type="text" placeholder="Answer 2..."/><br><br><br>
+
+						<input type="submit" value="Create User">
 					</form>
 					</center>
 				</td></tr>
 			</table>
 			</center>
-	    </div>
-
-	    <div>
-	    	<center>
-		    <a href="#" style="margin-top:15px;">Forgot your username?</a><br>
-		    <a href="#" style="margin-top:15px; margin-bottom:30px;">Forgot your password?</a>
-		    </center>
 	    </div>
 	   </div>
 	</body>
