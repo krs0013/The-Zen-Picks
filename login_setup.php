@@ -11,51 +11,50 @@
 
 
 	<body>
-	   <input type="checkbox" id="drawer-toggle" name="drawer-toggle"/>
-	   <label for="drawer-toggle" id="drawer-toggle-label"></label>
 	   <header class="zenPicks_title">
 	   		The Zen Picks
-	   		<span class="smallText" style="color:#c4001d;">l</span>
+	   		<a href="http://thezenpicks.com/login.php"><span class="smallText" >Login</span></a>
 	   </header>
-		<nav id="drawer">
-			<div>
+		<ul class="navigation">
+		    <li class="nav-item"><a href="#"></a></li>
+		    <br>
+			<div style="width: 200px;">
 				<a href="https://twitter.com/thezenpicks" ><img src="images/twitter.png" align="left" class="social"/></a>
 				<a href="https://www.facebook.com/TheZenPicks" ><img src="images/facebook.png" align="left" class="social"/></a>
 				<a href="https://instagram.com/thezenpicks/" ><img src="images/instagram.png" align="left" class="social"/></a>
 		    </div>
-			<br>
-			<br>
-			<br>
-			<br>
-			<ul>
-				<ul><a href="http://www.fountaincitycycling.org/test/" style="color: #fff;">Home</a></ul>
-				<br>
-				<br>
-				<ul><a href="http://thezenpicks.com/philosophy.php" style="color: #fff;">Philosophy</a></ul>
-				<br>
-				<br>
-				<ul><a href="http://thezenpicks.com/performance.php" style="color: #fff;">Performance</a></ul>
-				<br>
-				<br>
-				<ul><a href="http://thezenpicks.com/subscribe.php" style="color: #fff;">Subscribe</a></ul>
-			</ul>
-		</nav>
-	   <div id="page-content">
+		    <br>
+		    <br>
+		    <br>
+		    <br>
+		    <li class="nav-item"><a href="http://thezenpicks.com/">Home</a></li>
+		    <li class="nav-item"><a href="http://thezenpicks.com/philosophy.php">Philosophy</a></li>
+		    <li class="nav-item"><a href="http://thezenpicks.com/performance.php">Performance</a></li>
+		    <li class="nav-item"><a href="http://thezenpicks.com/subscribe.php">Subscribe</a></li>
+		    <hr>
+		    <li class="nav-item"><a href="http://thezenpicks.com/login.php">Member's Login</a></li>
+		    <li class="nav-item"><a href="http://thezenpicks.com/admin">Admin</a></li>
+		</ul>
+
+		<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+		<label for="nav-trigger"></label>
+
+		<div class="site-wrap">
 	    <div>
 			<center>
 			<table width="50%">
 				<tr height="auto"><td>
 					<center>
-					<form method="post" action="send_message.php" style="margin-top:20px;">
-						<div style="color:#fff;">Create a username: </div>
+					<form method="post" action="create_user.php" style="margin-top:20px;">
+						<div style="color:#fff; font-size:18px;">Create a username: </div>
 						<input name="username" id="user-pwd" type="text"/><br><br>
-						<div style="color:#fff;">Create a password: </div>
+						<div style="color:#fff; font-size:18px;">Create a password: </div>
 						<input name="password" id="user-pwd" type="password"/><br><br>
-						<div style="color:#fff;">Confirm password: </div>
+						<div style="color:#fff; font-size:18px;">Confirm password: </div>
 						<input name="password_confirm" id="user-pwd" type="password"/><br><br><br><br>
 
-						<div style="color:#fff;">Select two security questions: </div>
-						<select name="security_question_1" style="margin:1%;">
+						<div style="color:#fff; font-size:18px;">Select two security questions: </div>
+						<select name="security_question_1" style="margin:1%; height:24px; font-size:14px;">
 				  			<option value="temp" selected="selected">(Security Question 2)</option>
 				  			<option value="born">Where were you born?</option>
 				  			<option value="maiden">What is your mothers maiden name?</option>
@@ -65,7 +64,7 @@
 				  			<option value="father_born">Where was your father born?</option>
 						</select> <br>
 						<input name="security_answer_1" id="user-pwd" type="text" placeholder="Answer 1..."/><br><br>
-						<select name="security_question_2" style="margin:1%;">
+						<select name="security_question_2" style="margin:1%; height:24px; font-size:14px;">
 				  			<option value="temp" selected="selected">(Security Question 2)</option>
 				  			<option value="born">Where were you born?</option>
 				  			<option value="maiden">What is your mothers maiden name?</option>
@@ -76,7 +75,7 @@
 						</select> <br>
 						<input name="security_answer_2" id="user-pwd" type="text" placeholder="Answer 2..."/><br><br><br>
 
-						<input type="submit" value="Create User">
+						<input type="submit" value="Create User" style="margin:1%; height:24px; font-size:14px;">
 					</form>
 					</center>
 				</td></tr>

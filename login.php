@@ -2,7 +2,7 @@
 <html>
 
 	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0"> <!-- maximum-scale=1, user-scalable=0 -->
 		<link rel="stylesheet" href="css/style.css" />
 
 		<title>The Zen Picks</title>
@@ -11,36 +11,34 @@
 
 
 	<body>
-	   <input type="checkbox" id="drawer-toggle" name="drawer-toggle"/>
-	   <label for="drawer-toggle" id="drawer-toggle-label"></label>
 	   <header class="zenPicks_title">
 	   		The Zen Picks
-	   		<span class="smallText" style="color:#c4001d;">l</span>
+	   		<a href="http://thezenpicks.com/login.php"><span class="smallText" >Login</span></a>
 	   </header>
-		<nav id="drawer">
-			<div>
+		<ul class="navigation">
+		    <li class="nav-item"><a href="#"></a></li>
+		    <br>
+			<div style="width: 200px;">
 				<a href="https://twitter.com/thezenpicks" ><img src="images/twitter.png" align="left" class="social"/></a>
 				<a href="https://www.facebook.com/TheZenPicks" ><img src="images/facebook.png" align="left" class="social"/></a>
 				<a href="https://instagram.com/thezenpicks/" ><img src="images/instagram.png" align="left" class="social"/></a>
 		    </div>
-			<br>
-			<br>
-			<br>
-			<br>
-			<ul>
-				<ul><a href="http://www.fountaincitycycling.org/test/" style="color: #fff;">Home</a></ul>
-				<br>
-				<br>
-				<ul><a href="http://thezenpicks.com/philosophy.php" style="color: #fff;">Philosophy</a></ul>
-				<br>
-				<br>
-				<ul><a href="http://thezenpicks.com/performance.php" style="color: #fff;">Performance</a></ul>
-				<br>
-				<br>
-				<ul><a href="http://thezenpicks.com/subscribe.php" style="color: #fff;">Subscribe</a></ul>
-			</ul>
-		</nav>
-	   <div id="page-content">
+		    <br>
+		    <br>
+		    <br>
+		    <br>
+		    <li class="nav-item"><a href="http://thezenpicks.com/">Home</a></li>
+		    <li class="nav-item"><a href="http://thezenpicks.com/philosophy.php">Philosophy</a></li>
+		    <li class="nav-item"><a href="http://thezenpicks.com/performance.php">Performance</a></li>
+		    <li class="nav-item"><a href="http://thezenpicks.com/subscribe.php">Subscribe</a></li>
+		    <hr>
+		    <li class="nav-item"><a href="http://thezenpicks.com/admin">Admin</a></li>
+		</ul>
+
+		<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+		<label for="nav-trigger"></label>
+
+		<div class="site-wrap">
 	    <div>
 			<center>
 			<table width="50%">
