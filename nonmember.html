@@ -32,7 +32,7 @@
 		    <li class="nav-item"><a href="http://thezenpicks.com/performance.php">Performance</a></li>
 		    <li class="nav-item"><a href="http://thezenpicks.com/subscribe.php">Subscribe</a></li>
 		    <hr>
-		    <li class="nav-item"><a href="http://thezenpicks.com/login.php">Member's Login</a></li>
+		    <li class="nav-item"><a href="http://thezenpicks.com/login">Member's Login</a></li>
 		    <li class="nav-item"><a href="http://thezenpicks.com/admin">Admin</a></li>
 		</ul>
 
