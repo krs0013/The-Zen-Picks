@@ -70,7 +70,7 @@
 					    	This is the philosophy of <i>The Zen Picks</i> and I would like to make it known.  We do not guarantee our picks to
 					    	be right, but we are confident enough to make these picks public.  This is going to have to make the column a little
 					    	bit longer in order to make up for the PayPal logo.
-				    		<p style="font-size: 25px;"><a href="http://www.fountaincitycycling.org/test/philosophy.php">Read More</a></p>
+				    		<p style="font-size: 25px;"><a href="http://www.thezenpicks.com/philosophy.php">Read More</a></p>
 				    	</p>
 				    </p>
 			    </div>
@@ -82,7 +82,7 @@
 				    	<p>
 					    	This is the philosophy of <i>The Zen Picks</i> and I would like to make it known.  We do not guarantee our picks to
 					    	be right, but we are confident enough to make these picks public.  
-				    		<p style="font-size: 25px;"><a href="http://www.fountaincitycycling.org/test/philosophy.php">Read More</a></p>
+				    		<p style="font-size: 25px;"><a href="http://www.thezenpicks.com/philosophy.php">Read More</a></p>
 				    	</p>
 				    </p>
 			    </div>

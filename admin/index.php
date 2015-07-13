@@ -13,7 +13,7 @@
 	<body>
 	   <header class="zenPicks_title">
 	   		The Zen Picks
-	   		<a href="http://thezenpicks.com/login.php"><span class="smallText" >Login</span></a>
+	   		<!-- <a href="http://thezenpicks.com/login.php"><span class="smallText" >Login</span></a> -->
 	   </header>
 		<ul class="navigation">
 		    <li class="nav-item"><a href="#"></a></li>
@@ -49,9 +49,19 @@
 				<center>
 				<form method="post" action="../send_message.php">
 					TITLE: <br />
-					<input name="title" id="title" class="title" type="text" style="width:90%;"/><br><br>
+					<!-- <input name="title" id="user-pwd" class="title" type="text"/><br><br> -->
+					<select name="title" style="margin:1%; width:30%; height:24px; font-size:14px;">
+			  			<option value="temp" selected="selected">...Select...</option>
+			  			<option value="Thursday NFL">Thursday NFL</option>
+			  			<option value="Sunday Early NFL">Sunday Early NFL</option>
+			  			<option value="Sunday Late NFL">Sunday Late NFL</option>
+			  			<option value="Sunday Night NFL">Sunday Night NFL</option>
+			  			<option value="Monday Night NFL">Monday Night NFL</option>
+			  			<option value="College">College</option>
+			  			<option value="MMA">MMA</option>
+					</select> <br>
 					BODY: <br />
-					<textarea name="body" id="title" class="body" type="text" style="width:90%;"></textarea><br>
+					<textarea name="body" id="user-pwd" class="body" type="text"></textarea><br>
 					<input type="submit" value="Post">
 				</form>
 				</center>

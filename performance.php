@@ -48,12 +48,15 @@
 			    <div class="column_attributes">
 			    	<p style="font-size: 35px;"><u>Explination: </u></p>
 				    <p>
-				    	<img src="images/fullsizerender_2014.png" style="height: auto; max-width: 80%;">
+				    	<!-- <img src="images/fullsizerender_2014.png" style="height: auto; max-width: 80%;"> -->
 				    	<p>
-					    	This is the philosophy of <i>The Zen Picks</i> and I would like to make it known.  We do not guarantee our picks to
-					    	be right, but we are confident enough to make these picks public.  This is going to have to make the column a little
-					    	bit longer in order to make up for the PayPal logo.
-					    	<p style="font-size: 25px;"><a href="http://www.fountaincitycycling.org/test/philosophy.php">Read More</a></p>
+					    	Welcome to our performance page... We are serious about accurate recordkeeping and accountability for our customers. 
+					    	Win or lose, good or bad, you will find our current and past performance available here.
+					    	<br>
+					    	<br>
+					    	**Information will be updated weekly (usually on Tuesdays) to accurately represent our weekly and season performance. 
+					    	Unless otherwise noted, our season runs from September 1 to August 31 in the calendar year. 
+					    	<!-- <p style="font-size: 25px;"><a href="http://www.thezenpicks.com/philosophy.php">Read More</a></p> -->
 				    	</p>
 				    </p>
 			    </div>
@@ -61,11 +64,14 @@
 			    <div class="column_attributes">
 			    	<p style="font-size: 35px;"><u>2015 NFL: </u></p>
 				    <p>
-				    	<img src="images/fullsizerender_2013.png" style="height: auto; max-width: 80%;">
+				    	<!-- <img src="images/fullsizerender_2013.png" style="height: auto; max-width: 80%;"> -->
 				    	<p>
-					    	This is the philosophy of <i>The Zen Picks</i> and I would like to make it known.  We do not guarantee our picks to
-					    	be right, but we are confident enough to make these picks public.
-				    		<p style="font-size: 25px;"><a href="http://www.fountaincitycycling.org/test/philosophy.php">Read More</a></p>
+					    	Here you will see updated NFL season performance.
+					    	<br>
+					    	<center><img src="images/fullsizerender_graph.png" style="height: auto; max-width: 70%;"/></center>
+					    	<br>
+					    	<center><img src="images/fullsizerender_winlosspush.png" style="height: auto; max-width: 70%;"/></center>
+				    		<p style="font-size: 25px;"><a href="http://www.thezenpicks.com/philosophy.php">Read More</a></p>
 				    	</p>
 				    </p>
 			    </div>
@@ -73,11 +79,18 @@
 			    <div class="column_attributes">
 			    	<p style="font-size: 35px;"><u>Subscribe: </u></p>
 				    <p>
-				    	<img src="images/fullsizerender_2012.png" style="height: auto; max-width: 80%;">
+				    	<!-- <img src="images/fullsizerender_2012.png" style="height: auto; max-width: 80%;"> -->
 				    	<p>
-					    	This is the philosophy of <i>The Zen Picks</i> and I would like to make it known.  We do not guarantee our picks to
-					    	be right, but we are confident enough to make these picks public.  
-				    		<p style="font-size: 25px;"><a href="http://www.fountaincitycycling.org/test/philosophy.php">Read More</a></p>
+					    	As mentioned, we will have occasional college football seections, bowl selections, MMA contests and rare NBA Plays.
+					    	Our performance in the rare offered selections in these areas can be followed here:
+					    	<br> (other statistical photo here)
+					    	<br>
+					    	We have detailed record keeping over the last seven years... Our recent performance:
+					    	<br>
+					    	<img src="images/fullsizerender_2014.png" style="height: auto; max-width: 80%;">
+					    	<img src="images/fullsizerender_2013.png" style="height: auto; max-width: 80%;">
+				    		<img src="images/fullsizerender_2012.png" style="height: auto; max-width: 80%;">
+				    		<p style="font-size: 25px;"><a href="http://www.thezenpicks.com/philosophy.php">Read More</a></p>
 				    	</p>
 				    </p>
 			    </div>
