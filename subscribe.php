@@ -13,7 +13,7 @@
 	<body>
 	   <header class="zenPicks_title">
 	   		The Zen Picks
-	   		<a href="http://thezenpicks.com/login.php"><span class="smallText" >Login</span></a>
+	   		<a href="http://thezenpicks.com/login"><span class="smallText" >Login</span></a>
 	   </header>
 		<ul class="navigation">
 		    <li class="nav-item"><a href="#"></a></li>

@@ -13,7 +13,7 @@
 	<body>
 	   <header class="zenPicks_title">
 	   		The Zen Picks
-	   		<a href="http://thezenpicks.com/login.php"><span class="smallText" >Login</span></a>
+	   		<a href="http://thezenpicks.com/login"><span class="smallText" >Login</span></a>
 	   </header>
 		<ul class="navigation">
 		    <li class="nav-item"><a href="#"></a></li>
@@ -46,7 +46,7 @@
 
 		    	<!-- This is the code for the columns.-->
 			    <div class="column_attributes">
-			    	<p style="font-size: 35px;"><u>Explination: </u></p>
+			    	<p style="font-size: 35px;"><u>Explanation: </u></p>
 				    <p>
 				    	<!-- <img src="images/fullsizerender_2014.png" style="height: auto; max-width: 80%;"> -->
 				    	<p>
