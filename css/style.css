@@ -150,6 +150,9 @@ header {
   font-size: 30px;
   line-height: 30px;
   z-index: 2;
+  -webkit-box-shadow: 0 5px 6px -6px grey;
+     -moz-box-shadow: 0 5px 6px -6px grey;
+          box-shadow: 0 5px 6px -6px grey;
 }
 
 
@@ -165,17 +168,28 @@ h2 {
   font-family: Copperplate, Verdana;
   font-weight: normal;
   /*color: rgb(13,85,135);*/
-  font-size: 35px;
+  font-size: 225%;
   /* color: #7f7f7f; */
   /*color: #666;*/
   font-weight: 100;
   margin-top: 40px;
   margin-bottom: 40px;
   text-align: center;
+  color: #000040;
 }
 
 h3 {
   font-family: Copperplate, Verdana;
+  font-weight: normal;
+  /*color: rgb(13,85,135);*/
+  font-size: 175%;
+  /* color: #7f7f7f; */
+  /*color: #666;*/
+  font-weight: 100;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #000040;
 }
 
 .zenPicks_title {
@@ -204,13 +218,13 @@ p {
   font-family: Copperplate;
   font-size: 16px;
   line-height: 1.8em;
-  color: #151515;
+  color: #c4001d;
   margin-bottom: 1.8em;
 }
 
 p, header {
   font-family: Copperplate;
-  color: #151515;
+  color: #c4001d;
 }
 
 ul {
@@ -292,10 +306,19 @@ table {
   max-height: 40%;
 }
 
+.section_title {
+  font-family: Copperplate;
+  font-size: 250%;
+  color: #000040;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
 
 @media (min-width: 900px) {
 
-  #columns {
+/*  #columns {
     -moz-column-count: 3;
     -moz-column-gap: 1em;
     -moz-column-rule: 1px solid black;
@@ -305,14 +328,14 @@ table {
     display: block;
     margin-top: 20px;
     margin-bottom: 80px;
-  }
+  }*/
 
-  .column_attributes {
+/*  .column_attributes {
     text-align: center;
     padding-left: 0.75%;
     padding-right: 0.75%;
     vertical-align: middle;
-  }
+  }*/
 
   #footer {
     -moz-column-count: 4;
@@ -365,6 +388,15 @@ table {
   .site-wrap {
     padding: 2em;
   }
+
+  h2 {
+    font-size: 140%;
+  }
+
+  h3 {
+    font-size: 115%;
+    margin-top: 15%;
+  }
 }
 
 
@@ -378,6 +410,15 @@ table {
     text-align: left;
     font-size: 180%;
     padding-top: 3%;
+  }
+
+  h2 {
+    font-size: 130%;
+  }
+
+  h3 {
+    font-size: 100%;
+    margin-top: 25%;
   }
 }
 

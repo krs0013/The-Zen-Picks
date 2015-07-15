@@ -1,12 +1,14 @@
 <?php
-	if (isset($_POST['create_user'])){
-		createUser($_POST['username'], 
-							$_POST['password'],
-							$_POST['password_confirm'],
-							$_POST['security_question_1'],
-							$_POST['security_answer_1'],
-							$_POST['security_question_2'],
-							$_POST['security_answer_2']);
+	// include '../admin/settings.php';
+
+	session_start();
+
+	if ($_SESSION['GRANTED'] === true) {
+	    $_SESSION['GRANTED'] = false;
+	} else {
+		echo "<h1>404 Not Found</h1>";
+		echo "The page that you have requested could not be found.";
+		exit();
 	}
 ?>
 
@@ -57,7 +59,7 @@
 			<table width="50%">
 				<tr height="auto"><td>
 					<center>
-					<form method="post" style="margin-top:20px;"> <!-- action="create_user.php" -->
+					<form method="post" action="create_user.php" style="margin-top:20px;">
 						<div style="color:#fff; font-size:18px;">Create a username: </div>
 						<input name="username" id="user-pwd" type="text"/><br><br>
 						<div style="color:#fff; font-size:18px;">Create a password: </div>
@@ -105,32 +107,3 @@
 
 
 </html>
-
-<?php
-
-	function createUser($username, $password, $password_confirm, $security_question_1, $security_answer_1, $security_question_2, $security_answer_2) {
-		
-
-		if ($password !== $password_confirm ) {
-
-		}
-		else if ((!isset($username) || trim($username)==='')
-			|| (!isset($password) || trim($password)==='')
-			|| (!isset($password_confirm) || trim($password_confirm)==='')
-			|| (trim($security_question_1)==='temp')
-			|| (!isset($security_answer_1) || trim($security_answer_1)==='')
-			|| (trim($security_question_2)==='temp')
-			|| (!isset($security_answer_2) || trim($security_answer_2)==='')) {
-
-			// echo '<div id="light" class="white_content">'
-	  //       , '<a href = "javascript:void(0)" onclick = "document.getElementById("light").style.display="none";document.getElementById("fade").style.display="none"">Close</a></div>'
-	  //       , '<div id="fade" class="black_overlay"></div>';
-
-			echo 'document.getElementById("light").style.display="block";document.getElementById("fade").style.display="block"; return false;';
-
-		} else {
-			header("refresh:0; url=create_user.php");
-		}
-	    
-	}
-?>
