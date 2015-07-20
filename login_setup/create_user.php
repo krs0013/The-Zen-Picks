@@ -12,8 +12,8 @@
 	$security_answer_2 = mysql_escape_string($_POST['security_answer_2']);
 
 	// Hash the password to keep it "encoded"... lol
-	$sha_user = sha1($usrname);
-	$sha_pass = sha1($pswd);
+	// $sha_user = sha1($usrname);
+	// $sha_pass = sha1($pswd);
 
 	// Check to see if the user did not enter a password
 	if (!isset($pswd) || trim($pswd)==='') {
@@ -24,7 +24,7 @@
     	echo "You cannot have an empty password.<br>Redirecting to previous page...";
 	}
 	// If password and password confirmation dont match, kick out
-	else if ($sha_pass !== sha1($pswd_confirm)) {
+	else if ($pswd !== $pswd_confirm) {	// $sha_pass !== sha1($pswd_confirm) //
 		session_start();
 	    $_SESSION['GRANTED'] = true;
 		header("refresh:5; url=index.php");
@@ -66,10 +66,10 @@
 	}
 	// Otherwise everything must have been okay.
 	else {
-		$sha_user = sha1($usrname);
+		// $sha_user = sha1($usrname);
 
 		// Inserts information into database
-		$query = mysqli_query ($connect, "INSERT INTO login_credentials (username, password, security_question_1, security_answer_1, security_question_2, security_answer_2) VALUES ('{$sha_user}','{$sha_pass}','{$security_question_1}','{$security_answer_1}','{$security_question_2}','{$security_answer_2}')") or die (mysqli_error($connect));
+		$query = mysqli_query ($connect, "INSERT INTO login_credentials (username, password, security_question_1, security_answer_1, security_question_2, security_answer_2) VALUES ('{$usrname}','{$pswd}','{$security_question_1}','{$security_answer_1}','{$security_question_2}','{$security_answer_2}')") or die (mysqli_error($connect));
 
 		// Redirects user to the login page.
 	    header("refresh:2; url=../login/");

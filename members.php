@@ -1,9 +1,21 @@
-<?php
-	$current_user = $_POST['username'];
-?>
+
 
 <!DOCTYPE HTML>
 <html>
+
+<!--	PUT THIS BACK UP TOP!!!!!!!!!!!!!!!!!!!!!!!
+<?php
+	// session_start();
+
+	// if ($_SESSION['GRANTED'] === true) {
+	//     $_SESSION['GRANTED'] = false;
+	// } else {
+	// 	echo "<h1>404 Not Found</h1>";
+	// 	echo "The page that you have requested could not be found.";
+	// 	exit();
+	// }
+?>
+	-->
 
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0"> <!-- maximum-scale=1, user-scalable=0 -->
@@ -93,7 +105,10 @@
 											// Allows the body to have return characters
 											$body = str_replace("qwerty", "<br>", $body);
 
-											$post = "<div style=\"margin-left:10px;\"><h1>{$title}</h1><p style=\"text-align:center;\">{$body}</p><p style=\"text-align:center; color:#000040;\">Posted on: {$date}</p></div>";
+											$post = "<div style=\"margin-left:10px;\"><h1>{$title}</h1>";
+											$post .= "<p style=\"text-align:center;\">{$body}</p>";
+											$post .= "<p style=\"text-align:center; color:#000040;\">";
+											$post .= "Posted on: {$date}</p></div>";
 
 											echo $post;
 
@@ -122,8 +137,10 @@
 						<table>
 							<form method="post" action="send_email.php">
 								<br>
+								<img src="images/twitter.png" class="social"/>
+								<br>
 								<div style="color:#000; font-size:18px; font-family: Copperplate, Verdana;">Your Twitter Handle: </div>
-								<input name="handle" id="user-pwd" type="text"/><br>
+								<input name="handle" id="user-pwd" type="text" placeholder="@"/><br>
 
 								<input type="submit" value="Send" style="margin:1%; height:24px; font-size:14px;">
 							</form>
@@ -185,7 +202,7 @@
 			</tr>
 		</table>
 		<table style="box-shadow: 0px 0px 20px 10px #fff; border-radius: 15px 15px 15px 15px;">
-			<tr height="5%" align="right"><td>&copy all rights reserved</td></tr>
+			<tr height="5%" align="right" style="font-family: Copperplate, Verdana; color:#fff;"><td>&copy all rights reserved</td></tr>
 		</table>
 	</center>
 	</div>

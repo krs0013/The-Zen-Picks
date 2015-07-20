@@ -279,7 +279,7 @@ table {
   font-size: 16px;
 }
 
-/* Popup box (mainly for after users create password) */
+/* Popup box (mainly for when users forget password/username) */
 .black_overlay{
   display: none;
   position: absolute;
@@ -305,7 +305,7 @@ table {
   border: 16px solid orange;
   background-color: white;
   z-index:1002;
-  overflow: auto;
+  overflow: visible;
 }
 /* End popup box */
 
@@ -354,6 +354,11 @@ a.fancybox:hover img {
   text-align: center;
   margin-top: 60px;
   margin-bottom: 60px;
+}
+
+.divider {
+  max-height: 30px; 
+  max-width: 90%;
 }
 
 
@@ -440,6 +445,19 @@ a.fancybox:hover img {
     font-size: 135%;
     margin-top: 15%;
   }
+
+  /* Used for the popup box in forgot username/password */
+  .white_content {
+    width: 85%;
+    padding: 0px;
+    border: 8px solid orange;
+    left: 7.5%;
+  }
+
+  .divider {
+    max-height: 80px; 
+    max-width: 90%;
+  }
 }
 
 
@@ -462,6 +480,11 @@ a.fancybox:hover img {
   h3 {
     font-size: 125%;
     margin-top: 25%;
+  }
+
+  .divider {
+    max-height: 120px; 
+    max-width: 90%;
   }
 }
 
