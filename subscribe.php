@@ -40,53 +40,88 @@
 		<label for="nav-trigger"></label>
 
 		<div class="site-wrap">
-		    <h2><center><i><b>Subscribe</b></i></center></h2>
 
-		    <div id="columns">
+		    <h3 style="color: #c4001d;"><center><b>A new process for sports information and analytics<b></center></h3>
 
-		    	<!-- This is the code for the columns.-->
-			    <div class="column_attributes">
-			    	<p style="font-size: 35px;"><u>Customer Service: </u></p>
-				    <p>
-				    	If you have anything you'd like to share with us, please submit it through the following form.  We appreciate
-				    	any and all input.
+		    <!-- DIVIDER SPIRAL -->
+		    <div style="text-align: center;">
+		    	<img src="images/divider.png" class="divider">
+		    </div>
 
-						<form action="send_email.php" method="post" action="send_message.php">
-							Title: <br />
-							<input name="title" id="title" type="text" style="width:90%; height:40px;"/><br><br>
-							What would you like to tell us? <br />
-							<textarea name="body" id="body" class="body" type="text" style="width:90%;"></textarea><br>
-							<input type="submit" value="Send">
-							<input type="reset" value="Reset">
-						</form>
-				    </p>
-			    </div>
+		    <div class="section_title">
+		    	SUBSCRIBE
+		    </div>
 
-			    <div class="column_attributes">
-			    	<p style="font-size: 35px;"><u>Statistics: </u></p>
-				    <p>
-				    	<center><img src="images/graph.png"/></center>
-				    	<p>
-					    	This is the philosophy of <i>The Zen Picks</i> and I would like to make it known.  We do not guarantee our picks to
-					    	be right, but we are confident enough to make these picks public.  This is going to have to make the column a little
-					    	bit longer in order to make up for the PayPal logo.
-				    		<p style="font-size: 25px;"><a href="http://www.thezenpicks.com/philosophy.php">Read More</a></p>
-				    	</p>
-				    </p>
-			    </div>
+		    <div>
+		    	<p style="text-align: center;">
+		    		Sign up now for season long selections released immediately prior to events.  
+		    		One price includes our entire season (Sept 2015-Aug2016).  
+		    		You will never see ads or solicitations for "special" selections.
 
-			    <div class="column_attributes">
-			    	<p style="font-size: 35px;"><u>Subscribe: </u></p>
-				    <p>
-				    	<center><a href="https://www.paypal.com"><img src="images/paypal.png"/></a></center>
-				    	<p>
-					    	This is the philosophy of <i>The Zen Picks</i> and I would like to make it known.  We do not guarantee our picks to
-					    	be right, but we are confident enough to make these picks public.  
-				    		<p style="font-size: 25px;"><a href="http://www.thezenpicks.com/philosophy.php">Read More</a></p>
-				    	</p>
-				    </p>
-			    </div>
-			</div>
+		    		<h2 style="margin-bottom:0px;"><b>The Zen Picks 2015-2016 season pass<b></h2>
+		    		<h3 style="margin-top:0px;"><b>US $100<b></h3>
+		    		<center>
+					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+						<input type="hidden" name="cmd" value="_s-xclick">
+						<input type="hidden" name="hosted_button_id" value="R7TBQ4CLNKJS2">
+						<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+						<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+					</form>
+					</center>
+		    	</p>
+		    </div>
+
+		    <!-- DIVIDER SPIRAL -->
+		    <div style="text-align: center;">
+		    	<img src="images/divider.png" class="divider">
+		    </div>
+
+		    <h3 style=""><b>SUBSCRIBER INFORMATION<b></h3>
+		    <p style="text-align: center; color: #000040;">
+		    	We present our selections in TWO ways.  
+		    </p>
+		    <p style="text-align: center; color: #000040;">
+		    	1. After payment, PAYPAL will redirect you to a setup page for your own username and password setup.  
+		    	This will allow you to login to our private page with immediate postings on selections and see in chronological 
+		    	order our unedited past selections with time and date stamping.  
+		    </p>
+		    <p style="text-align: center; color: #000040;">
+		    	2. Also, from the member page you will see a link to a private Twitter feed.  
+		    	You may submit your Twitter @handle to us from the form provided in the member area, 
+		    	request to follow the private feed, and once accepted, receive selections via Twitter in real time prior to the event.
+		    </p>
+
+		    <!-- DIVIDER SPIRAL -->
+		    <div style="text-align: center;">
+		    	<img src="images/divider.png" class="divider">
+		    </div>
+
+		    <h3 style="color: #c4001d;"><b>CUSTOMER SERVICE<b></h3>
+
+		    <p style="text-align: center; color: #000040;">
+		    	PLEASE send us any comments, suggestions, feedback or questions.  
+		    	We aim to be the most honest provider of sports information in the industry. 
+		    </p>
+		    <p style="text-align: center;">
+		    	NOTE: Accurately predicting the outcome of a specific event or series of events is by no means guaranteed.  
+		    	Feedback regarding the outcome of events v. our selections OR comments referencing our performance will be ignored.  
+		    	We are not responsible in any way for your outcomes from the use of our information.  Enjoy our selections responsibly.
+		    </p>
+		    <center>
+				<form action="send_email.php" method="post" style="margin-bottom:40px;">
+					<div style="color:#000; font-size:20px; font-family: Copperplate, Verdana;">Title: </div>
+					<input name="title" id="title" type="text" style="width:50%; height:40px; font-size:18px;"/><br><br>
+					<div style="color:#000; font-size:20px; font-family: Copperplate, Verdana;">What would you like to tell us? </div>
+					<textarea name="body" id="body" class="body" type="text" style="width:50%; font-size:18px; height:60px"></textarea><br>
+					<input type="submit" value="Send">
+					<input type="reset" value="Reset">
+				</form>
+			</center>
+
+		    <!-- DIVIDER SPIRAL -->
+		    <div style="text-align: center;">
+		    	<img src="images/divider.png" class="divider">
+		    </div>
 	   </div>
 	</body>
 

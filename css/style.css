@@ -30,7 +30,7 @@
 html,
 body {
   height: 100%;
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/     /* <--- THIS CAUSED THE SITE TO LAG WHEN SCROLLING!!! */
 }
 /* gets the actual input out of the way; 
 we're going to style the label instead */
@@ -46,12 +46,12 @@ we're going to style the label instead */
   bottom: 0;
   left: 0;
   z-index: 0;
-  overflow-x: hidden;
-  overflow-y: scroll;
+  /*overflow-x: hidden;*/
+  /*overflow-y: scroll;*/
   
   /* non-critical appearance styles */
   list-style: none;
-  background: #000040;
+  background: #bfbfbf;  /* 000040 */
 }
 
 /* Navigation Menu - List items */

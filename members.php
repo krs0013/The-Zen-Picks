@@ -1,4 +1,20 @@
+<?php
+	require "connect.php";
+	session_start();
 
+	// if ($_SESSION['GRANTED'] === true) {
+	//     $_SESSION['GRANTED'] = false;
+	// } else {
+	// 	echo "<h1>404 Not Found</h1>";
+	// 	echo "The page that you have requested could not be found.";
+	// 	exit();
+	// }
+
+	// Used for the user to send a request to the private Zen Picks twitter account
+	if (isset($_POST['twitter_handle'])) {
+		sendTwitterHandle($_POST['handle'], $_POST['curr_user']);
+	}
+?>
 
 <!DOCTYPE HTML>
 <html>
@@ -87,7 +103,6 @@
 							<tr>
 								<td>
 									<?php
-										require_once "connect.php";
 
 										$command = "SELECT * FROM blogData ORDER BY id DESC";
 										$query = mysqli_query($connect, $command) or die (mysqli_error());
@@ -135,21 +150,22 @@
 						<h4>Just send us your twitter handle</h4>
 						<br>
 						<table>
-							<form method="post" action="send_email.php">
+							<form id="userform" method="post"> <!-- action="send_email.php" -->
 								<br>
-								<img src="images/twitter.png" class="social"/>
+								<img src="images/twitter_bird.png" class="social"/>
 								<br>
 								<div style="color:#000; font-size:18px; font-family: Copperplate, Verdana;">Your Twitter Handle: </div>
-								<input name="handle" id="user-pwd" type="text" placeholder="@"/><br>
+								<input name="handle" id="user-pwd" type="text" placeholder="@" autocapitalize="off"/><br>
+								<div style="color:#000; font-size:18px; font-family: Copperplate, Verdana;">Your Username: </div>
+								<input name="curr_user" id="user-pwd" type="text" autocapitalize="off"/><br>
 
-								<input type="submit" value="Send" style="margin:1%; height:24px; font-size:14px;">
+								<input name="twitter_handle" type="submit" value="Send" style="margin:1%; height:24px; font-size:14px;">
 							</form>
 						</table>
 					</center>
 				</td>
 			</table>
 		</tr>
-
 
 		<!-- PREVIOUS PICKS -->
 		<table style="background-color:#c4001d; box-shadow: 0px 0px 20px 10px #fff; border-radius: 15px 15px 15px 15px;">
@@ -158,7 +174,6 @@
 				<h2 style="color:#000040; margin:0px;">Previous Selections</h2>
 
 					<?php
-						require_once "connect.php";
 
 						$command = "SELECT * FROM blogData ORDER BY id DESC";
 						$query = mysqli_query($connect, $command) or die (mysqli_error());
@@ -211,9 +226,29 @@
 
 </html>
 
-<?php
-    mail('thezenpicks@gmail.com', $_POST['title'], $_POST['body']);
+<?php	
 
-    header("refresh:3; url=subscribe.php");
-    echo "Your email has been sent!\nPlease wait 3 seconds for the page to refresh."
+	function sendTwitterHandle($handle, $curr_user) {
+	require "connect.php";
+
+
+		// Select a single username form db
+		$command = "SELECT * FROM login_credentials WHERE username = '".$curr_user."' AND twitter_handle = '".$handle."'";
+		$query = mysqli_query($connect, $command) or die (mysqli_error());
+
+		// If there was a match, show them the username
+		if (mysqli_num_rows($query) > 0) {
+			echo '<script type="text/javascript">alert("You already submitted a Twitter handle request.  Only one request per member.")</script>';
+		} else {
+			// If they didn't have a twitter handle previously, record it so they can only have one and not more.
+			$command = "UPDATE login_credentials SET twitter_handle = '".$handle."' WHERE username='".$curr_user."'";
+			$query = mysqli_query($connect, $command) or die (mysqli_error());
+
+			$email_body = "Twitter Handle: {$handle}";
+			$email_body .= "\r\nUsername: {$curr_user}";
+		    mail('thezenpicks@gmail.com', "Twitter Handle Request", $email_body);
+			echo '<script type="text/javascript">alert("Thank you!\n\rYour Twitter handle has been sent.")</script>';
+		}
+		mysqli_close($connect);
+	}
 ?>

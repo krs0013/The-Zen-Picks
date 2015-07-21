@@ -4,6 +4,7 @@
 
 		session_start();
 	    $_SESSION['GRANTED'] = true;
+	    $_SESSION['USERNAME'] = $_POST['username'];
 
 		checkLogin($_POST['username'], $_POST['password']);
 	}
@@ -66,12 +67,12 @@
 		<div class="site-wrap">
 	    <div>
 			<center>
-			<table width="50%">
+			<table width="50%" style="margin-top:60px;">
 				<tr height="auto"><td>
 					<center>
 					<form method="post" style="margin-top:20px;"> <!-- action="check_login.php" -->
 						<div style="color:#fff; font-size:22px;">Username: </div>
-						<input name="username" id="user-pwd" type="text"/><br><br>
+						<input name="username" id="user-pwd" type="text" autocapitalize="off"/><br><br>
 						<div style="color:#fff; font-size:22px;">Password: </div>
 						<input name="password" id="user-pwd" type="password"/><br><br>
 						<input type="submit" name="submit_login" value="Login">
@@ -102,7 +103,7 @@
 					<img src="../images/spiral.png" align="right" style="height: auto; max-width: 50px; margin-top:-7%;">
 					<br>
 					<div style="color:#000; font-size:22px; margin-top:10%;">Enter your password: </div>
-					<input name="username_retrieve" id="user-pwd" type="text"/><br><br>
+					<input name="username_retrieve" id="user-pwd" type="password" autocapitalize="off"/><br><br>
 					<input type="submit" name="retrieve_username_submit" value="Login">
 				</form>
 				<br>
@@ -119,7 +120,7 @@
 					<img src="../images/spiral.png" align="right" style="height: auto; max-width: 50px; margin-top:-7%;">
 					<br>
 					<div style="color:#000; font-size:22px; margin-top:10%;">Enter your username: </div>
-					<input name="password_retrieve" id="user-pwd" type="text"/><br><br>
+					<input name="password_retrieve" id="user-pwd" type="text" autocapitalize="off"/><br><br>
 					<input type="submit" name="retrieve_password_submit" value="Login">
 				</form>
 				<br>
