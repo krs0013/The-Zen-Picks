@@ -2,13 +2,14 @@
 	require "connect.php";
 	session_start();
 
-	// if ($_SESSION['GRANTED'] === true) {
-	//     $_SESSION['GRANTED'] = false;
-	// } else {
-	// 	echo "<h1>404 Not Found</h1>";
-	// 	echo "The page that you have requested could not be found.";
-	// 	exit();
-	// }
+	if ($_SESSION['GRANTED'] === true) {
+	    // $_SESSION['GRANTED'] = false;
+	} else {
+		// echo "<h1>404 Not Found</h1>";
+		// echo "The page that you have requested could not be found.";
+	 	header("refresh:0; url=../login");
+		exit();
+	}
 
 	// Used for the user to send a request to the private Zen Picks twitter account
 	if (isset($_POST['twitter_handle'])) {
@@ -18,20 +19,6 @@
 
 <!DOCTYPE HTML>
 <html>
-
-<!--	PUT THIS BACK UP TOP!!!!!!!!!!!!!!!!!!!!!!!
-<?php
-	// session_start();
-
-	// if ($_SESSION['GRANTED'] === true) {
-	//     $_SESSION['GRANTED'] = false;
-	// } else {
-	// 	echo "<h1>404 Not Found</h1>";
-	// 	echo "The page that you have requested could not be found.";
-	// 	exit();
-	// }
-?>
-	-->
 
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0"> <!-- maximum-scale=1, user-scalable=0 -->
@@ -51,9 +38,9 @@
 		    <li class="nav-item"><a href="#"></a></li>
 		    <br>
 			<div style="width: 200px;">
-				<a href="https://twitter.com/thezenpicks" ><img src="images/twitter.png" align="left" class="social"/></a>
-				<a href="https://www.facebook.com/TheZenPicks" ><img src="images/facebook.png" align="left" class="social"/></a>
-				<a href="https://instagram.com/thezenpicks/" ><img src="images/instagram.png" align="left" class="social"/></a>
+				<a href="https://twitter.com/thezenpicks" target="Twitter"><img src="images/twitter.png" align="left" class="social"/></a>
+				<a href="https://www.facebook.com/TheZenPicks" target="Facebook"><img src="images/facebook.png" align="left" class="social"/></a>
+				<a href="https://instagram.com/thezenpicks/" target="Instagram"><img src="images/instagram.png" align="left" class="social"/></a>
 		    </div>
 		    <br>
 		    <br>
@@ -231,23 +218,34 @@
 	function sendTwitterHandle($handle, $curr_user) {
 	require "connect.php";
 
+		// session_start();
+	 //    $_SESSION['GRANTED'] = true;
+
 
 		// Select a single username form db
-		$command = "SELECT * FROM login_credentials WHERE username = '".$curr_user."' AND twitter_handle = '".$handle."'";
+		$command = "SELECT * FROM login_credentials WHERE username = '".$curr_user."' AND twitter_handle IS NOT NULL AND TRIM(twitter_handle) <> ''";
 		$query = mysqli_query($connect, $command) or die (mysqli_error());
+
+		$no_user_match = "SELECT * FROM login_credentials WHERE username = '".$curr_user."'";
+		$query_two = mysqli_query($connect, $no_user_match) or die (mysqli_error());
 
 		// If there was a match, show them the username
 		if (mysqli_num_rows($query) > 0) {
 			echo '<script type="text/javascript">alert("You already submitted a Twitter handle request.  Only one request per member.")</script>';
 		} else {
-			// If they didn't have a twitter handle previously, record it so they can only have one and not more.
-			$command = "UPDATE login_credentials SET twitter_handle = '".$handle."' WHERE username='".$curr_user."'";
-			$query = mysqli_query($connect, $command) or die (mysqli_error());
 
-			$email_body = "Twitter Handle: {$handle}";
-			$email_body .= "\r\nUsername: {$curr_user}";
-		    mail('thezenpicks@gmail.com', "Twitter Handle Request", $email_body);
-			echo '<script type="text/javascript">alert("Thank you!\n\rYour Twitter handle has been sent.")</script>';
+			if (mysqli_num_rows($query_two) < 1) {
+				echo '<script type="text/javascript">alert("Invalid username.  Please enter a valid username.")</script>';
+			} else {
+				// If they didn't have a twitter handle previously, record it so they can only have one and not more.
+				$command = "UPDATE login_credentials SET twitter_handle = '".$handle."' WHERE username='".$curr_user."'";
+				$query = mysqli_query($connect, $command) or die (mysqli_error());
+
+				$email_body = "Twitter Handle: {$handle}";
+				$email_body .= "\r\nUsername: {$curr_user}";
+			    mail('krstreit0013@gmail.com', "Twitter Handle Request", $email_body);
+				echo '<script type="text/javascript">alert("Thank you!\n\rYour Twitter handle has been sent.")</script>';
+			}
 		}
 		mysqli_close($connect);
 	}

@@ -45,9 +45,9 @@
 		    <li class="nav-item"><a href="#"></a></li>
 		    <br>
 			<div style="width: 200px;">
-				<a href="https://twitter.com/thezenpicks" ><img src="../images/twitter.png" align="left" class="social"/></a>
-				<a href="https://www.facebook.com/TheZenPicks" ><img src="../images/facebook.png" align="left" class="social"/></a>
-				<a href="https://instagram.com/thezenpicks/" ><img src="../images/instagram.png" align="left" class="social"/></a>
+				<a href="https://twitter.com/thezenpicks" target="Twitter"><img src="../images/twitter.png" align="left" class="social"/></a>
+				<a href="https://www.facebook.com/TheZenPicks" target="Facebook"><img src="../images/facebook.png" align="left" class="social"/></a>
+				<a href="https://instagram.com/thezenpicks/" target="Instagram"><img src="../images/instagram.png" align="left" class="social"/></a>
 		    </div>
 		    <br>
 		    <br>
@@ -71,9 +71,9 @@
 				<tr height="auto"><td>
 					<center>
 					<form method="post" style="margin-top:20px;"> <!-- action="check_login.php" -->
-						<div style="color:#fff; font-size:22px;">Username: </div>
+						<div style="color:#fff; font-size:22px; font-family: Copperplate;">Username: </div>
 						<input name="username" id="user-pwd" type="text" autocapitalize="off"/><br><br>
-						<div style="color:#fff; font-size:22px;">Password: </div>
+						<div style="color:#fff; font-size:22px; font-family: Copperplate;">Password: </div>
 						<input name="password" id="user-pwd" type="password"/><br><br>
 						<input type="submit" name="submit_login" value="Login">
 					</form>
@@ -87,8 +87,8 @@
 
 	    	<!-- Forgot password and/or username.  -->
 	    	<center>
-		    <a href="#" onclick="document.getElementById('forgot_username').style.display='block';document.getElementById('fade').style.display='block'; return false; " style="margin-top:15px;">Forgot your username?</a><br>
-		    <a href="#" onclick="document.getElementById('forgot_password').style.display='block';document.getElementById('fade').style.display='block'; return false; " style="margin-top:15px; margin-bottom:30px;">Forgot your password?</a>
+		    <a href="#" onclick="document.getElementById('forgot_username').style.display='block';document.getElementById('fade').style.display='block'; return false; " style="margin-top:15px; font-family: Copperplate;">Forgot your username?</a><br>
+		    <a href="#" onclick="document.getElementById('forgot_password').style.display='block';document.getElementById('fade').style.display='block'; return false; " style="margin-top:15px;  font-family: Copperplate;margin-bottom:30px;">Forgot your password?</a>
 
 		    <!-- <p>
 		     	This is the main content. To display a lightbox click 

@@ -1,3 +1,7 @@
+<?php
+	session_start();
+	$_SESSION['GRANTED'] = false;
+?>
 <!DOCTYPE HTML>
 <html>
 
@@ -19,9 +23,9 @@
 		    <li class="nav-item"><a href="#"></a></li>
 		    <br>
 			<div style="width: 200px;">
-				<a href="https://twitter.com/thezenpicks" ><img src="images/twitter.png" align="left" class="social"/></a>
-				<a href="https://www.facebook.com/TheZenPicks" ><img src="images/facebook.png" align="left" class="social"/></a>
-				<a href="https://instagram.com/thezenpicks/" ><img src="images/instagram.png" align="left" class="social"/></a>
+				<a href="https://twitter.com/thezenpicks" target="Twitter"><img src="images/twitter.png" align="left" class="social"/></a>
+				<a href="https://www.facebook.com/TheZenPicks" target="Facebook"><img src="images/facebook.png" align="left" class="social"/></a>
+				<a href="https://instagram.com/thezenpicks/" target="Instagram"><img src="images/instagram.png" align="left" class="social"/></a>
 		    </div>
 		    <br>
 		    <br>
@@ -58,8 +62,8 @@
 		    		One price includes our entire season (Sept 2015-Aug2016).  
 		    		You will never see ads or solicitations for "special" selections.
 
-		    		<h2 style="margin-bottom:0px;"><b>The Zen Picks 2015-2016 season pass<b></h2>
-		    		<h3 style="margin-top:0px;"><b>US $100<b></h3>
+		    		<h2 style="margin-bottom:0px;"><b>The Zen Picks 2015-2016 season pass</b></h2>
+		    		<h3 style="margin-top:0px;"><b>US $100</b></h3>
 		    		<center>
 					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 						<input type="hidden" name="cmd" value="_s-xclick">
@@ -76,7 +80,7 @@
 		    	<img src="images/divider.png" class="divider">
 		    </div>
 
-		    <h3 style=""><b>SUBSCRIBER INFORMATION<b></h3>
+		    <h3 style=""><b>SUBSCRIBER INFORMATION</b></h3>
 		    <p style="text-align: center; color: #000040;">
 		    	We present our selections in TWO ways.  
 		    </p>
@@ -96,7 +100,7 @@
 		    	<img src="images/divider.png" class="divider">
 		    </div>
 
-		    <h3 style="color: #c4001d;"><b>CUSTOMER SERVICE<b></h3>
+		    <h3 style="color: #c4001d;"><b>CUSTOMER SERVICE</b></h3>
 
 		    <p style="text-align: center; color: #000040;">
 		    	PLEASE send us any comments, suggestions, feedback or questions.  
@@ -110,9 +114,17 @@
 		    <center>
 				<form action="send_email.php" method="post" style="margin-bottom:40px;">
 					<div style="color:#000; font-size:20px; font-family: Copperplate, Verdana;">Title: </div>
-					<input name="title" id="title" type="text" style="width:50%; height:40px; font-size:18px;"/><br><br>
-					<div style="color:#000; font-size:20px; font-family: Copperplate, Verdana;">What would you like to tell us? </div>
-					<textarea name="body" id="body" class="body" type="text" style="width:50%; font-size:18px; height:60px"></textarea><br>
+					<!-- <input name="title" id="form_field" type="text"/><br><br> -->
+					<select name="title" id="form_field" style="margin:1%; height:26px; font-size:16px; font-family: Copperplate;">
+			  			<option value="Select a title..." selected="selected">Select a title...</option>
+			  			<option value="General">General Question</option>
+			  			<option value="Login/Password Not Working">Login/Password Not Working</option>
+			  			<option value="Blah">Blah</option>
+			  			<option value="Another">Another</option>
+			  			<option value="One More">One More</option>
+					</select> <br>
+					<div style="color:#000; font-size:20px; font-family: Copperplate, Verdana;">What would you like to tell us? (max 200 char)</div>
+					<textarea name="body" id="form_field" class="body" type="text" maxlength="200"></textarea><br>
 					<input type="submit" value="Send">
 					<input type="reset" value="Reset">
 				</form>

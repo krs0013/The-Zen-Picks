@@ -12,8 +12,8 @@
 
 	$query = mysqli_query ($connect, "INSERT INTO blogData (title, body) VALUES ('{$title}','{$body}')") or die (mysqli_error($connect));
 	
-    header("refresh:3; url=admin");
-    echo "The post was successfully sent!<br>Please wait 3 seconds for the page to refresh.";
+    header("refresh:0; url=admin");
+    echo "The post was successfully sent!<br>Your page will be refreshed.";
     echo "<br><br>Title: {$title}";
     echo "<br>Body: {$body}";
 ?>

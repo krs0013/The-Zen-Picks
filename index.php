@@ -1,3 +1,6 @@
 <?php
-	include 'nonmember.html';
+	session_start();
+	$_SESSION['GRANTED'] = false;
+
+	include 'nonmember.php';
 ?>

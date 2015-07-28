@@ -30,7 +30,9 @@
 html,
 body {
   height: 100%;
-  /*overflow-x: hidden;*/     /* <--- THIS CAUSED THE SITE TO LAG WHEN SCROLLING!!! */
+  /*overflow-x: hidden;*/     
+  overflow-x:hidden;                  /* <--- THIS CAUSED THE SITE TO LAG WHEN SCROLLING without....  */
+  -webkit-overflow-scrolling:touch;   /* <--- WITHOUT THIS!!!! */
 }
 /* gets the actual input out of the way; 
 we're going to style the label instead */
@@ -46,8 +48,8 @@ we're going to style the label instead */
   bottom: 0;
   left: 0;
   z-index: 0;
-  /*overflow-x: hidden;*/
-  /*overflow-y: scroll;*/
+  overflow-x: hidden;
+  overflow-y: scroll;
   
   /* non-critical appearance styles */
   list-style: none;
@@ -89,8 +91,8 @@ we're going to style the label instead */
   bottom: 100%;
   left: 0;
   z-index: 1;
-/*  overflow-x: hidden;
-  overflow-y: scroll;*/       /* THESE TWO WERE CAUSING A WEIRD SCROLL ERROR!!! (Mainly overflow-y: scroll;) */
+  /*overflow-x: hidden;*/
+  /*overflow-y: scroll;*/       /* THESE TWO WERE CAUSING A WEIRD SCROLL ERROR!!! (Mainly overflow-y: scroll;) */
   /*-webkit-overflow-scrolling: touch;*/
   
   /* non-critical apperance styles */
@@ -142,6 +144,7 @@ label[for="nav-trigger"] {
 }
 
 header {
+  font-family: Copperplate, Verdana;
   width: 100%;
   position: fixed;
   left: 0px;
@@ -215,6 +218,7 @@ h4 {
 
 .smallText{
   float: right;
+  font-weight: normal;
   font-size: 40%;
   color: #fff;
   text-align: right;
@@ -228,20 +232,16 @@ h4 {
 }
 
 p {
-  font-family: Copperplate;
-  font-size: 16px;
+  font-family: Copperplate, Verdana;
+  font-size: 20px;
   line-height: 1.8em;
   color: #c4001d;
   margin-bottom: 1.8em;
-}
-
-p, header {
-  font-family: Copperplate;
-  color: #c4001d;
+  margin-top: 1.8em;
 }
 
 ul {
-  font-family: Copperplate;
+  font-family: Copperplate, Verdana;
   font-size: 120%;
   text-align: center;
 }
@@ -348,7 +348,7 @@ a.fancybox:hover img {
 }
 
 .section_title {
-  font-family: Copperplate;
+  font-family: Copperplate, Verdana;
   font-size: 250%;
   color: #000040;
   text-align: center;
@@ -359,6 +359,12 @@ a.fancybox:hover img {
 .divider {
   max-height: 30px; 
   max-width: 90%;
+}
+
+textarea, input {
+   /*font-family: Copperplate, Verdana;*/
+   height:40px; 
+   font-size:18px;
 }
 
 
@@ -409,6 +415,10 @@ a.fancybox:hover img {
       text-align: center;
       vertical-align: 
   }
+
+  #form_field {
+    width:50%;
+  }
 }
 
 @media (max-width: 600px) {
@@ -419,7 +429,7 @@ a.fancybox:hover img {
   .zenPicks_title {
     text-align: left;
     font-size: 200%;
-    padding-top: 3%;
+    padding-top: 2%;
   }
 
   table { 
@@ -434,7 +444,7 @@ a.fancybox:hover img {
   }
 
   .site-wrap {
-    padding: 2em;
+    padding: 3em;
   }
 
   h2 {
@@ -458,6 +468,14 @@ a.fancybox:hover img {
     max-height: 80px; 
     max-width: 90%;
   }
+
+  #form_field {
+    width: 100%;
+  }
+
+  p {
+    font-size: 18px;
+  }
 }
 
 
@@ -469,7 +487,7 @@ a.fancybox:hover img {
 
   .zenPicks_title {
     text-align: left;
-    font-size: 180%;
+    font-size: 170%;
     padding-top: 3%;
   }
 
@@ -485,6 +503,10 @@ a.fancybox:hover img {
   .divider {
     max-height: 120px; 
     max-width: 90%;
+  }
+
+  .section_title {
+    font-size: 200%;
   }
 }
 

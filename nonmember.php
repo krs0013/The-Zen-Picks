@@ -20,9 +20,9 @@
 		    <li class="nav-item"><a href="#"></a></li>
 		    <br>
 			<div style="width: 200px;">
-				<a href="https://twitter.com/thezenpicks" ><img src="images/twitter.png" align="left" class="social"/></a>
-				<a href="https://www.facebook.com/TheZenPicks" ><img src="images/facebook.png" align="left" class="social"/></a>
-				<a href="https://instagram.com/thezenpicks/" ><img src="images/instagram.png" align="left" class="social"/></a>
+				<a href="https://twitter.com/thezenpicks" target="Twitter"><img src="images/twitter.png" align="left" class="social"/></a>
+				<a href="https://www.facebook.com/TheZenPicks" target="Facebook"><img src="images/facebook.png" align="left" class="social"/></a>
+				<a href="https://instagram.com/thezenpicks/" target="Instagram"><img src="images/instagram.png" align="left" class="social"/></a>
 		    </div>
 
 		    <br>
@@ -47,7 +47,7 @@
 	    	<img src="images/spiral_with_title.png" style="height: auto; max-width: 30%;">
 	    </div> -->
 
-	    <h3><center><b>A new process for sports information and analytics<b></center></h3>
+	    <h3><center><b>A new process for sports information and analytics</b></center></h3>
 
 	    <p style="text-align: center;">
 	    	We specialize in NFL handicapping with a simple one-tier, one-time season payment option for our customers.<br>
@@ -59,7 +59,7 @@
 	    	<img src="images/divider.png" class="divider">
 	    </div>
 
-	    <h2><center><b><u>RELEVANT EDITED WEEKLY INFORMATIONAL MESSAGE</u><b></center></h2>
+	    <h2><center><b><u>RELEVANT EDITED WEEKLY INFORMATIONAL MESSAGE</u></b></center></h2>
 
 	    <!-- DIVIDER SPIRAL -->
 	    <div style="text-align: center;">
@@ -69,7 +69,7 @@
 
 
 	    <div class="section_title">
-	    	<a href="http://thezenpicks.com/subscribe.php" style="text-decoration:none;">SUBSCRIBE</a>
+	    	<a href="http://thezenpicks.com/subscribe.php" style="text-decoration:none; color:#000040;">SUBSCRIBE</a>
 	    </div>
 	    <div>
 	    	<p style="text-align: center;">
@@ -77,8 +77,8 @@
 	    		One price includes our entire season (Sept 2015-Aug2016).  
 	    		You will never see ads or solicitations for "special" selections.
 
-	    		<h2 style="margin-bottom:0px;"><b>The Zen Picks 2015-2016 season pass<b></h2>
-	    		<h3 style="margin-top:0px;"><b>US $100<b></h3>
+	    		<h2 style="margin-bottom:0px;"><b>The Zen Picks 2015-2016 season pass</b></h2>
+	    		<h3 style="margin-top:0px;"><b>US $100</b></h3>
 	    		<center>
 				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 					<input type="hidden" name="cmd" value="_s-xclick">
@@ -97,7 +97,7 @@
 	    <br>
 
 	    <div class="section_title">
-	    	<a href="http://thezenpicks.com/performance.php" style="text-decoration:none;">PERFORMANCE</a>
+	    	<a href="http://thezenpicks.com/performance.php" style="text-decoration:none; color:#000040;">PERFORMANCE</a>
 	    </div>
 	    <div>
 	    	<p style="text-align: center;">
@@ -121,7 +121,7 @@
 	    <br>
 
 	    <div class="section_title">
-	    	<a href="http://thezenpicks.com/philosophy.php" style="text-decoration:none;">OUR PHILOSOPHY</a>
+	    	<a href="http://thezenpicks.com/philosophy.php" style="text-decoration:none; color:#000040;">OUR PHILOSOPHY</a>
 	    </div>
 	    <div>
 	    	<p style="text-align: center;">
