@@ -73,7 +73,6 @@
 
 		// Redirects user to the login page.
 	    header("refresh:0; url=../login/");
-	    echo "The post was successfully sent!<br>Your page will be refreshed.";
 		echo "<h1>The post was successfully sent!</h1><br>Redirecting to the login page...";
 	    //echo "<br><br>Query: INSERT INTO login_credentials (username, password, security_question_1, security_answer_1, security_question_2, security_answer_2) VALUES ('{$usrname}','{$pswd}','{$security_question_1}','{$security_answer_1}','{$security_question_2}','{$security_answer_2}')";
 	    // echo "<br><br>Username: {$usrname}";

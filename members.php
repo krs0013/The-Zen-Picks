@@ -23,21 +23,22 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0"> <!-- maximum-scale=1, user-scalable=0 -->
 		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.css" />
 
 		<title>The Zen Picks</title>
-		<link rel="icon" type="image/gif" href="../images/fav_icon.png">
+		<link rel="icon" type="image/gif" href="images/fav_icon.png">
 	</head>
 
 
 	<body>
+	   <input type="checkbox" id="drawer-toggle" name="drawer-toggle"/>
+	   <label for="drawer-toggle" id="drawer-toggle-label"></label>
 	   <header class="zenPicks_title">
 	   		The Zen Picks
-	   		<!-- <a href="http://thezenpicks.com/login.php"><span class="smallText" >Login</span></a> -->
+	   		<a href="http://thezenpicks.com/login"><span class="smallText" >Login</span></a>
 	   </header>
-		<ul class="navigation">
-		    <li class="nav-item"><a href="#"></a></li>
-		    <br>
-			<div style="width: 200px;">
+		<ul id="drawer">
+			<div style="width: 300px;">
 				<a href="https://twitter.com/thezenpicks" target="Twitter"><img src="images/twitter.png" align="left" class="social"/></a>
 				<a href="https://www.facebook.com/TheZenPicks" target="Facebook"><img src="images/facebook.png" align="left" class="social"/></a>
 				<a href="https://instagram.com/thezenpicks/" target="Instagram"><img src="images/instagram.png" align="left" class="social"/></a>
@@ -66,10 +67,7 @@
 		    </li>
 		</ul>
 
-		<input type="checkbox" id="nav-trigger" class="nav-trigger" />
-		<label for="nav-trigger"></label>
-
-		<div class="site-wrap" style="background-color: #bfbfbf;">
+		<div id="page-content" style="background-color: #bfbfbf;">	
 	    <center>
 		
 		<tr id="tr1" height="10%" style="background:#c4001d;">

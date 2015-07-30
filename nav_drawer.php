@@ -3,7 +3,7 @@
 
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0"> <!-- maximum-scale=1, user-scalable=0 -->
-		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/nav_drawer.css" />
 		<link rel="stylesheet" type="text/css" media="screen" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.css" />
 
 		<title>The Zen Picks</title>
@@ -18,24 +18,29 @@
 	   		The Zen Picks
 	   		<a href="http://thezenpicks.com/login"><span class="smallText" >Login</span></a>
 	   </header>
-		<ul id="drawer">
-			<div style="width: 300px;">
-				<a href="https://twitter.com/thezenpicks" target="Twitter"><img src="images/twitter.png" align="left" class="social"/></a>
-				<a href="https://www.facebook.com/TheZenPicks" target="Facebook"><img src="images/facebook.png" align="left" class="social"/></a>
-				<a href="https://instagram.com/thezenpicks/" target="Instagram"><img src="images/instagram.png" align="left" class="social"/></a>
+		<nav id="drawer">
+			<div>
+				<a href="https://twitter.com/thezenpicks" ><img src="images/twitter.png" align="left" class="social"/></a>
+				<a href="https://www.facebook.com/TheZenPicks" ><img src="images/facebook.png" align="left" class="social"/></a>
+				<a href="https://instagram.com/thezenpicks/" ><img src="images/instagram.png" align="left" class="social"/></a>
 		    </div>
-		    <br>
-		    <br>
-		    <br>
-		    <br>
-		    <li class="nav-item"><a href="http://thezenpicks.com/">Home</a></li>
-		    <li class="nav-item"><a href="http://thezenpicks.com/philosophy.php">Our Philosophy</a></li>
-		    <li class="nav-item"><a href="http://thezenpicks.com/performance.php">Performance</a></li>
-		    <li class="nav-item"><a href="http://thezenpicks.com/subscribe.php">Subscribe</a></li>
-		    <hr>
-		    <li class="nav-item"><a href="http://thezenpicks.com/login">Member's Login</a></li>
-		    <li class="nav-item"><a href="http://thezenpicks.com/admin">Admin</a></li>
-		</ul>
+			<br>
+			<br>
+			<br>
+			<br>
+			<ul>
+				<ul><a href="#" style="color: #fff;">Home</a></ul>
+				<br>
+				<br>
+				<ul><a href="#" style="color: #fff;">Philosophy</a></ul>
+				<br>
+				<br>
+				<ul><a href="#" style="color: #fff;">Performance</a></ul>
+				<br>
+				<br>
+				<ul><a href="#" style="color: #fff;">Subscribe</a></ul>
+			</ul>
+		</nav>
 
 		<div id="page-content">	
 
