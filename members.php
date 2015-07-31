@@ -48,23 +48,9 @@
 		    <br>
 		    <br>
 		    <li class="nav-item"><a href="http://thezenpicks.com/">Home</a></li>
-		    <li class="nav-item">
-		    	
-				<a class="twitter-timeline"  href="https://twitter.com/thezenpicks" data-widget-id="620428907989368832" width="90%">
-					Tweets by @thezenpicks
-				</a>
-            	<script>
-            		!function(d,s,id) {
-            			var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
-            			if(!d.getElementById(id)) {
-            				js=d.createElement(s);
-            				js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
-            				fjs.parentNode.insertBefore(js,fjs);
-            			}
-            		}
-            		(document,"script","twitter-wjs");
-            	</script>
-		    </li>
+		    <li class="nav-item"><a href="http://thezenpicks.com/philosophy.php">Our Philosophy</a></li>
+		    <li class="nav-item"><a href="http://thezenpicks.com/performance.php">Performance</a></li>
+		    <li class="nav-item"><a href="http://thezenpicks.com/subscribe.php">Subscribe</a></li>
 		</ul>
 
 		<div id="page-content" style="background-color: #bfbfbf;">	
@@ -130,9 +116,9 @@
 			<!-- TWITTER BOX -->
 			<table style="background-color:#00aced; box-shadow: 0px 0px 20px 10px #fff; border-radius: 15px 15px 15px 15px;">
 				<td>
-					<h3 style="margin:0px;">Join our private Twitter list for free!</h3>
-					<center>
-						<h4>Just send us your twitter handle</h4>
+					<h3 style="margin:0px;">For optional delivery, please submit your twitter handle to this private twitter feed along with your username.</h3> <!-- Join our private Twitter list for free! -->
+					<center><br>
+						<h4>The Zen Picks private twitter: @TZP_PVT2015</h4> <!-- Just send us your twitter handle -->
 						<br>
 						<table>
 							<form id="userform" method="post"> <!-- action="send_email.php" -->
@@ -241,7 +227,7 @@
 
 				$email_body = "Twitter Handle: {$handle}";
 				$email_body .= "\r\nUsername: {$curr_user}";
-			    mail('krstreit0013@gmail.com', "Twitter Handle Request", $email_body);
+			    mail('tzp.private.twitter@gmail.com', "Twitter Handle Request", $email_body);
 				echo '<script type="text/javascript">alert("Thank you!\n\rYour Twitter handle has been sent.")</script>';
 			}
 		}

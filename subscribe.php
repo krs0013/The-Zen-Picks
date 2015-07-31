@@ -111,16 +111,19 @@
 		    </p>
 		    <center>
 				<form action="send_email.php" method="post" style="margin-bottom:40px;">
-					<div style="color:#000; font-size:20px; font-family: Copperplate, Verdana;">Title: </div>
+					<div style="color:#000; font-size:20px; font-family: Copperplate, Verdana;">Subject: </div>
 					<!-- <input name="title" id="form_field" type="text"/><br><br> -->
 					<select name="title" id="form_field" style="margin:1%; height:26px; font-size:16px; font-family: Copperplate;">
 			  			<option value="Select a title..." selected="selected">Select a title...</option>
-			  			<option value="General">General Question</option>
-			  			<option value="Login/Password Not Working">Login/Password Not Working</option>
-			  			<option value="Blah">Blah</option>
-			  			<option value="Another">Another</option>
-			  			<option value="One More">One More</option>
+			  			<option value="General Question">General Question</option>
+			  			<option value="Payment Issue">Payment Issue</option>
+			  			<option value="Access to Selections">Access to Selections</option>
+			  			<option value="Private Twitter Feed">Private Twitter Feed</option>
+			  			<option value="Performance Info">Performance Info</option>
+			  			<option value="Feedback">Feedback</option>
 					</select> <br>
+					<div style="color:#000; font-size:20px; font-family: Copperplate, Verdana;">Your Email (Required): </div>
+					<input name="user_email" id="form_field" type="text"/><br><br>
 					<div style="color:#000; font-size:20px; font-family: Copperplate, Verdana;">What would you like to tell us? (max 200 char)</div>
 					<textarea name="body" id="form_field" class="body" type="text" maxlength="200"></textarea><br>
 					<input type="submit" value="Send">

@@ -98,7 +98,7 @@
 
 		    <p style="text-align: center; color: #000040;">
 		    	Before using any selection service, please learn the basics of budgeting, line selection and purchasing, 
-		    	how to manage a season’s ups and downs, and understand what REALISTIC expectations should be.  
+		    	how to manage a season's ups and downs, and understand what REALISTIC expectations should be.  
 		    </p>
 
 		    <!-- DIVIDER SPIRAL -->

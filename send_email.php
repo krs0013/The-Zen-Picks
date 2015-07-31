@@ -1,21 +1,14 @@
 <?php
-    mail('thezenpicks@gmail.com', $_POST['title'], $_POST['body']);
+	if (!isset($_POST['user_email']) || trim($_POST['user_email'])==='') {
+		// echo '<button onclick="myFunction()">You must enter your email...</button>';
+
+		echo '<script> var x; if (confirm("You must enter your email...") == true) { window.location.replace("http://thezenpicks.com/subscribe.php");} else {window.location.replace("http://thezenpicks.com/subscribe.php");}document.getElementById("demo").innerHTML = x;</script>';
+
+	} else {
+		$email_body = "Email: " . $_POST['user_email'];
+		$email_body .= "\r\n\r\nResponse:\r\n" . $_POST['body'];
+
+    	mail('thezenpicks@gmail.com', $_POST['title'], $email_body);
+		echo '<script> var x; if (confirm("Thank You!\n\rYour email was sent!") == true) { window.location.replace("http://thezenpicks.com/subscribe.php");} else {window.location.replace("http://thezenpicks.com/subscribe.php");}document.getElementById("demo").innerHTML = x;</script>';
+	}
 ?>
-
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Thank you!</title>
-
-		<link rel="icon" type="image/gif" href="images/fav_icon.png">
-	</head>
-
-	<body>
-		<p style="vertical-align: middle; font-size: 500%; font-family: Copperplate, Verdana;">
-			<center>
-				<h1>Thank you for your feedback!</h1>
-				Your message has been sent.
-			</center>
-		</p>	
-	</body>
-</html>

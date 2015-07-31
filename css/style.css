@@ -93,9 +93,9 @@ header {
 #drawer {
   position: fixed;
   top: 0;
-  left: -300px;
+  left: -200px;
   height: 100%;
-  width: 300px;
+  width: 200px;
   background: #bfbfbf;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -122,13 +122,13 @@ header {
 
 #drawer-toggle:checked ~ #drawer-toggle-label {
   height: 100%;
-  width: calc(100% - 300px);
+  width: calc(100% - 200px);
   background: rgba(255, 255, 255, .8);
 }
 
 #drawer-toggle:checked ~ #drawer-toggle-label,
 #drawer-toggle:checked ~ header {
-  left: 300px;
+  left: 200px;
 }
 
 #drawer-toggle:checked ~ #drawer {
@@ -136,7 +136,7 @@ header {
 }
 
 #drawer-toggle:checked ~ #page-content {
-  margin-left: 300px;
+  margin-left: 200px;
 }
 
 .navigation {
@@ -162,7 +162,7 @@ header {
   /* non-critical appearance styles */
   border-top: 1px solid #111;
   border-bottom: 1px solid #000;
-  width: 300px;
+  width: 200px;
 }
 
 .nav-item a {
@@ -250,8 +250,8 @@ h4 {
 
 .social {
   margin-top: 0.5%;
-  margin-left: 9%;
-  margin-right: 9%;
+  margin-left: 3%;
+  margin-right: 5%;
 }
 
 p {
