@@ -59,7 +59,7 @@
 		    	Purchasing sports information does NOT have to be confusing or deceptive.  
 		    </p>
 
-			<h3 style="margin-top:0px; color:#c4001d;"><b>THE ZEN PICK IS...</b></h3>
+			<h3 style="margin-top:0px; color:#c4001d;"><b>A ZEN PICK IS...</b></h3>
 
 		    <p style="text-align: center; color: #000040;">
 				...just that.  A selection.  We do not believe in a tiered "star" rating.  
@@ -83,14 +83,13 @@
 		    	That's right.  Many competitor services will use words like "Guarantee" or the classic word..."LOCK".  
 		    	Predicting the outcome of a single particular event with an infinite number of uncontrollable contributing factors 
 		    	is IMPOSSIBLE to guarantee.  PERIOD.  Whether you subscribe to THE ZEN PICKS or not, please do not be fooled by a 
-		    	service that offers such guarantees.  We aim to be successful over a period of time.  
-		    	Again, we make NO guarantees to long term success either - but...
+		    	service that offers such guarantees.  We aim to be successful over a period of time.
 		    </p>
 
 			<h3 style="margin-top:0px; color:#c4001d;"><b>YES, WE PLAY 'EM ALSO.</b></h3>
 
 		    <p style="text-align: center; color: #000040;">
-		    	I will not speak for other services, but at THE ZEN PICKS, we have an investment in the selection as part of a 
+		    	I will not speak for other services, but at THE ZEN PICKS, we have an interest in each selection as part of a 
 		    	season long process just as much as our customers do.  We are invested in each and every selection 100%.
 		    </p>
 

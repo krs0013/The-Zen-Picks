@@ -67,10 +67,10 @@
 			<table style="background-color:#000040; box-shadow: 0px 0px 20px 10px #fff; border-radius: 15px 15px 15px 15px;">
 				<tr height="80%"><td width="50%">
 					<center>
-					<h2 style="color:#c4001d; margin:0px;">Latest Selection</h2>
+					<h2 style="color:#fff; margin:0px;">Latest Selection</h2>
 
 						<!-- Inner white box -->
-						<table style="background-color:#fff; box-shadow: 0px 0px 10px 6px #c4001d; border-radius: 15px 0px 15px 0px;">
+						<table style="background-color:#fff; box-shadow: 0px 0px 10px 6px #c4001d; border-radius: 15px 0px 15px 0px; margin-bottom:5px;">
 							<tr>
 								<td>
 									<?php
@@ -120,7 +120,7 @@
 					<center><br>
 						<h4>The Zen Picks private twitter: @TZP_PVT2015</h4> <!-- Just send us your twitter handle -->
 						<br>
-						<table>
+						<table style="margin-bottom:0px;">
 							<form id="userform" method="post"> <!-- action="send_email.php" -->
 								<br>
 								<img src="images/twitter_bird.png" class="social"/>
@@ -177,7 +177,7 @@
 							echo $post;
 
 							$counter++;
-							if ($counter === 5) break;
+							if ($counter === 8) break;
 
 						}
 
@@ -188,7 +188,7 @@
 			</tr>
 		</table>
 		<table style="box-shadow: 0px 0px 20px 10px #fff; border-radius: 15px 15px 15px 15px;">
-			<tr height="5%" align="right" style="font-family: Copperplate, Verdana; color:#fff;"><td>&copy all rights reserved</td></tr>
+			<tr height="5%" align="right" style="font-family: Copperplate, Verdana; color:#fff; text-align:center;"><td>All previous selections available on both the PUBLIC and PRIVATE Twitter feeds @TheZenPicks & @TZP_PVT2015</td></tr> <!-- &copy all rights reserved -->
 		</table>
 	</center>
 	</div>

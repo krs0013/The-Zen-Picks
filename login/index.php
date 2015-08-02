@@ -84,8 +84,8 @@
 
 	    	<!-- Forgot password and/or username.  -->
 	    	<center>
-		    <a href="#" onclick="document.getElementById('forgot_username').style.display='block';document.getElementById('fade').style.display='block'; return false; " style="margin-top:15px; font-family: Copperplate;">Forgot your username?</a><br>
-		    <a href="#" onclick="document.getElementById('forgot_password').style.display='block';document.getElementById('fade').style.display='block'; return false; " style="margin-top:15px;  font-family: Copperplate;margin-bottom:30px;">Forgot your password?</a>
+		    <a href="#" onclick="document.getElementById('forgot_username').style.display='block';document.getElementById('fade').style.display='block'; return false; " style="margin-top:15px; font-family: Copperplate; color:#000040;">Forgot your username?</a><br>
+		    <a href="#" onclick="document.getElementById('forgot_password').style.display='block';document.getElementById('fade').style.display='block'; return false; " style="margin-top:15px;  font-family: Copperplate;margin-bottom:30px; color:#000040;">Forgot your password?</a>
 
 		    <!-- <p>
 		     	This is the main content. To display a lightbox click 

@@ -57,11 +57,12 @@
 		    <div>
 		    	<p style="text-align: center;">
 		    		Sign up now for season long selections released immediately prior to events.  
-		    		One price includes our entire season (Sept 2015-Aug2016).  
+		    		One price includes our entire season (Sept 2015-Aug 2016).  
 		    		You will never see ads or solicitations for "special" selections.
 
-		    		<h2 style="margin-bottom:0px;"><b>The Zen Picks 2015-2016 season pass</b></h2>
-		    		<h3 style="margin-top:0px;"><b>US $100</b></h3>
+		    		<h2 style="margin-bottom:0px;"><b>The Zen Picks 2015-2016 SEASON PASS</b></h2>
+		    		<h3 style="margin-top:0px; color: #c4001d;"><b>Preseason Special Rate through Sept 15, 2015</b></h3>
+		    		<h1 style="margin-top:0px; margin-bottom:40px; color: #c4001d;"><b>US $50</b></h1>
 		    		<center>
 					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 						<input type="hidden" name="cmd" value="_s-xclick">
@@ -84,7 +85,9 @@
 		    </p>
 		    <p style="text-align: center; color: #000040;">
 		    	1. After payment, PAYPAL will redirect you to a setup page for your own username and password setup.  
-		    	This will allow you to login to our private page with immediate postings on selections and see in chronological 
+		    	This will allow you to login to our 
+		    	<a href="http://thezenpicks.com/login" style="text-decoration:none; color:#c4001d;">Member Page</a>
+		    	with immediate postings on selections and see in chronological 
 		    	order our unedited past selections with time and date stamping.  
 		    </p>
 		    <p style="text-align: center; color: #000040;">
@@ -124,10 +127,10 @@
 					</select> <br>
 					<div style="color:#000; font-size:20px; font-family: Copperplate, Verdana;">Your Email (Required): </div>
 					<input name="user_email" id="form_field" type="text"/><br><br>
-					<div style="color:#000; font-size:20px; font-family: Copperplate, Verdana;">What would you like to tell us? (max 200 char)</div>
+					<div style="color:#000; font-size:20px; font-family: Copperplate, Verdana;">Message (max 200 char):</div>
 					<textarea name="body" id="form_field" class="body" type="text" maxlength="200"></textarea><br>
-					<input type="submit" value="Send">
-					<input type="reset" value="Reset">
+					<input type="submit" value="Send" style="font-family: Copperplate, Verdana;">
+					<input type="reset" value="Reset" style="font-family: Copperplate, Verdana;">
 				</form>
 			</center>
 

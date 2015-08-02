@@ -54,14 +54,19 @@
 		    	PERFORMANCE
 		    </div>
 		    <p style="text-align: center; color: #000040;">
-		    	At THE ZEN PICKS we are serious about accurate and up-to-date detailed record keeping of our performance to our customers.  
+		    	At THE ZEN PICKS, we are serious about accurate and up-to-date detailed record keeping of our performance to our customers.  
 		    	You will never see us disguise selections with different "labels" or "categories" or "Star Ratings".  
 		    	With rare exception, a selection is a single stand alone play.  
 		    	Throughout the season, we may VERY RARELY have a special parlay or 1.5x or 2x selection for our customers.  
 		    	<br><br>
 		    	New for 2015!  We have entered the Westgate Resorts NFL Supercontest!  Follow our ranking below!
 		    	<br><br>
-		    	Below you will find weekly updated informational graphics on our performance.  
+		    	Our selections for the NFL SuperContest are published as public record on the Westgate Contest Site 
+		    	(we will add a URL later here). Due to SuperContest time restrictions and rules, our entries in the 
+		    	SuperContest are not necessarily official ZEN PICKS and will not be factored in our own performance results.  
+		    	Only selections published in the 
+		    	<a href="http://thezenpicks.com/login" style="text-decoration:none; color:#c4001d;">Member Area</a>
+		    	prior to events will be calculated in our performance data.
 		    </p>
 
 		    <!-- DIVIDER SPIRAL -->

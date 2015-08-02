@@ -290,6 +290,7 @@ td {
 table { 
   background-color: #c4001d;
   margin-top: 3%;
+  margin-bottom: 22px;
   border: 0.5% solid green;
   width: 75%;
 }
@@ -380,7 +381,8 @@ a.fancybox:hover img {
 }
 
 .divider {
-  max-height: 30px; 
+  max-height: 50px; 
+  /*min-width: 60%;*/
   max-width: 90%;
 }
 
@@ -457,7 +459,6 @@ textarea, input {
 
   table { 
     width: 99%;
-    margin-bottom: 22px;
     margin-top: 22px;
   }
 
@@ -476,7 +477,7 @@ textarea, input {
 
   h3 {
     font-size: 135%;
-    margin-top: 15%;
+    /*margin-top: 15%;*/
   }
 
   /* Used for the popup box in forgot username/password */

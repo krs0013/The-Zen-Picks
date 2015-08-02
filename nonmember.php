@@ -70,11 +70,13 @@
 	    <div>
 	    	<p style="text-align: center;">
 	    		Sign up now for season long selections released immediately prior to events.  
-	    		One price includes our entire season (Sept 2015-Aug2016).  
+	    		One price includes our entire season (Sept 2015-Aug 2016).  
 	    		You will never see ads or solicitations for "special" selections.
 
-	    		<h2 style="margin-bottom:0px;"><b>The Zen Picks 2015-2016 season pass</b></h2>
-	    		<h3 style="margin-top:0px;"><b>US $100</b></h3>
+	    		<h2 style="margin-bottom:0px;"><b>The Zen Picks 2015-2016 SEASON PASS</b></h2>
+	    		<h3 style="margin-top:0px; color: #c4001d;"><b>Preseason Special Rate through Sept 15, 2015</b></h3>
+	    		<h1 style="margin-top:0px; color: #c4001d;"><b>US $50</b></h1>
+
 	    		<center>
 				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 					<input type="hidden" name="cmd" value="_s-xclick">
@@ -99,13 +101,13 @@
 	    	<p style="text-align: center;">
 	    		At THE ZEN PICKS we are serious about accurate and up-to-date detailed record keeping of our performance to our customers.  
 	    		Below you will find throughout the season weekly updated informational graphics on our performance.  
-	    		Please follow the above link for more detailed current and past performance!
+	    		Please follow the above link for more detailed current and past performance.
 		    	<br>
 		    	<br>
-				<img class="fancybox" src="images/nfl_performance_2015_small.png" data-big="images/nfl_performance_2015_large.png"/>
+				<img class="fancybox" src="images/nfl_football_graph_2015_small.png" data-big="images/nfl_football_graph_2015_large.png"/>
 		    	<br>
 		    	<br>
-				<img class="fancybox" src="images/nfl_performance_2015_current_small.png" data-big="images/nfl_performance_2015_current_large.png"/>
+				<img class="fancybox" src="images/nfl_supercontest_2015_small.png" data-big="images/nfl_supercontest_2015_large.png"/>
 	    	</p>
 	    </div>
 
