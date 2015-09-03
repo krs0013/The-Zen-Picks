@@ -94,7 +94,7 @@
 											$post = "<div style=\"margin-left:10px;\"><h1>{$title}</h1>";
 											$post .= "<p style=\"text-align:center;\">{$body}</p>";
 											$post .= "<p style=\"text-align:center; color:#000040;\">";
-											$post .= "Posted on: {$date}</p></div>";
+											$post .= "Posted on: {$date} PT</p></div>";
 
 											echo $post;
 
@@ -167,7 +167,7 @@
 							/* Each time make a white box to put the pick in! */
 							$post = "<table style=\"background-color:#fff; box-shadow: 0px 0px 10px 2px #000040; border-radius: 15px 0px 15px 0px;\">";
 							$post .= "<tr><td><div style=\"margin-left:10px; text-align:center;\"><h1>{$title}</h1><p>{$body}</p>";
-							$post .= "<p style=\"color:#000040;\">Posted on: {$date}</p></div></td></tr></table>";
+							$post .= "<p style=\"color:#000040;\">Posted on: {$date} PT</p></div></td></tr></table>";
 
 							if ($counter === 0) {
 								$counter++;

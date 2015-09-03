@@ -55,8 +55,9 @@
 			  			<option value="SUNDAY LATE NFL">SUNDAY LATE NFL</option>
 			  			<option value="SUNDAY NIGHT NFL">SUNDAY NIGHT NFL</option>
 			  			<option value="MONDAY NIGHT NFL">MONDAY NIGHT NFL</option>
-			  			<option value="COLLEGE">COLLEGE</option>
+			  			<option value="COLLEGE FOOTBALL">COLLEGE FOOTBALL</option>
 			  			<option value="MMA">MMA</option>
+			  			<option value="MESSAGE">MESSAGE</option>
 					</select> <br>
 					BODY: <br />
 					<textarea name="body" id="user-pwd" class="body" type="text" style="height: 100px;"></textarea><br>

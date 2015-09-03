@@ -54,6 +54,13 @@
 		<div id="page-content">	
 	    <div>
 			<center>
+				<p>
+					Thank you for your purchase from The Zen Picks.  Your payment has been processed and you should receive an email 
+					confirming the transaction.  We hope you enjoy your season!  <br><br>Please fill out the information below to complete your registration.
+					
+				</p>	
+			</center>
+			<center>
 			<table width="50%">
 				<tr height="auto"><td>
 					<center>

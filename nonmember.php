@@ -55,7 +55,13 @@
 	    	<img src="images/divider.png" class="divider">
 	    </div>
 
-	    <h2><center><b><u>RELEVANT EDITED WEEKLY INFORMATIONAL MESSAGE</u></b></center></h2>
+	    <h2><center><b><u>
+	    	Join us for the 2015-2016 season!  Please see our preseason special below (valid through 9/15/2015)
+	    	<br><br>
+	    	Follow @TheZenPicks for day-to-day updates and progress
+	    	<br><br>
+	    	Football season is HERE.  Get your 2015 NFL and College season started off with our special season rate...(see below)
+	    </u></b></center></h2>
 
 	    <!-- DIVIDER SPIRAL -->
 	    <div style="text-align: center;">
@@ -78,12 +84,12 @@
 	    		<h1 style="margin-top:0px; color: #c4001d;"><b>US $50</b></h1>
 
 	    		<center>
-				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-					<input type="hidden" name="cmd" value="_s-xclick">
-					<input type="hidden" name="hosted_button_id" value="R7TBQ4CLNKJS2">
-					<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-					<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-				</form>
+					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+						<input type="hidden" name="cmd" value="_s-xclick">
+						<input type="hidden" name="hosted_button_id" value="R7TBQ4CLNKJS2">
+						<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+						<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+					</form>
 				</center>
 	    	</p>
 	    </div>
@@ -104,10 +110,10 @@
 	    		Please follow the above link for more detailed current and past performance.
 		    	<br>
 		    	<br>
-				<img class="fancybox" src="images/nfl_football_graph_2015_small.png" data-big="images/nfl_football_graph_2015_large.png"/>
+				<img class="fancybox" src="images/college_football_2015_small.png" data-big="images/college_football_2015_large.png"/>
 		    	<br>
 		    	<br>
-				<img class="fancybox" src="images/nfl_supercontest_2015_small.png" data-big="images/nfl_supercontest_2015_large.png"/>
+				<img class="fancybox" src="images/nfl_performance_2015_week1_small.png" data-big="images/nfl_performance_2015_week1_large.png"/>
 	    	</p>
 	    </div>
 
@@ -132,8 +138,9 @@
 	    <!-- DIVIDER SPIRAL -->
 	    <div style="text-align: center;">
 	    	<img src="images/divider.png" class="divider">
-	    </div>
-	   </div>
+	    </div>        	                            
+
+        </div>
 	   
 
 	    <!---------------------------------------------------------------------------------->

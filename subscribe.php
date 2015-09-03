@@ -70,6 +70,7 @@
 						<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 						<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 					</form>
+
 					</center>
 		    	</p>
 		    </div>
@@ -94,6 +95,32 @@
 		    	2. Also, from the member page you will see a link to a private Twitter feed.  
 		    	You may submit your Twitter @handle to us from the form provided in the member area, 
 		    	request to follow the private feed, and once accepted, receive selections via Twitter in real time prior to the event.
+		    </p>
+		    <p style="text-align: center; color: #000040;">
+		    	3. Unless otherwise notified, selections will be posted no later than 10 mins prior to start of an event. 
+		    	Every effort will be made to have selections posted as early as possible.
+		    	<br><br>
+				Usual posting times (Pacific Time) for events:
+				<br><br>
+				<u>NFL</u><br>
+				Thusday 5:00 PM<br>
+				Sunday 9:40 AM<br>
+				Sunday 12:40 PM<br>
+				Sunday 5:00 PM<br>
+				Monday 5:00 PM
+				<br><br>
+				<u>College Football</u><br>
+				Weekdays 4:00 PM<br>
+				Saturday 8:45 AM<br>
+				Saturday 12:15 PM<br>
+				Saturday 4:45 PM<br>
+				Saturday 7:45 PM
+				<br><br>
+				Note: College Football start times are highly variable. Please stay tuned to announcements on Twitter for adjustments. 
+				<br><br>
+				*Upcoming postings for MMA, and other events will generate an announcement on Twitter (@TheZenPicks) 
+				and the Member Page well ahead of time regarding a pending selection. 
+				Adjusting your mobile device settings to notify you of our Twitter postings would be a helpful idea. 
 		    </p>
 
 		    <!-- DIVIDER SPIRAL -->

@@ -58,15 +58,6 @@
 		    	You will never see us disguise selections with different "labels" or "categories" or "Star Ratings".  
 		    	With rare exception, a selection is a single stand alone play.  
 		    	Throughout the season, we may VERY RARELY have a special parlay or 1.5x or 2x selection for our customers.  
-		    	<br><br>
-		    	New for 2015!  We have entered the Westgate Resorts NFL Supercontest!  Follow our ranking below!
-		    	<br><br>
-		    	Our selections for the NFL SuperContest are published as public record on the Westgate Contest Site 
-		    	(we will add a URL later here). Due to SuperContest time restrictions and rules, our entries in the 
-		    	SuperContest are not necessarily official ZEN PICKS and will not be factored in our own performance results.  
-		    	Only selections published in the 
-		    	<a href="http://thezenpicks.com/login" style="text-decoration:none; color:#c4001d;">Member Area</a>
-		    	prior to events will be calculated in our performance data.
 		    </p>
 
 		    <!-- DIVIDER SPIRAL -->
@@ -75,7 +66,7 @@
 		    </div>
 
 		    <p style="text-align: center; color: #000040;">
-		    	INFORMATION ACCURATE AS OF: <span style="color:#c4001d;">(DATE EDITED EACH WEEK)</span>
+		    	INFORMATION ACCURATE AS OF: <span style="color:#c4001d;">September 3, 2015</span>
 		    </p>
 
 		    <h2 style="margin-bottom:0px;"><b>2015 NFL SEASON</b></h2>
@@ -84,20 +75,26 @@
 					<img class="fancybox" src="images/nfl_football_graph_2015_small.png" data-big="images/nfl_football_graph_2015_large.png"/>
 		    	</p>
 		    </div>
+		    <h2 style="margin-bottom:0px;"><b>2015 NFL PRESEASON</b></h2>
+		    <div>
+		    	<p style="text-align: center;">
+					<img class="fancybox" src="images/nfl_preseason_2015_small.png" data-big="images/nfl_preseason_2015_large.png"/>
+		    	</p>
+		    </div>
 		    <h2 style="margin-bottom:0px;"><b>2015 NFL WEEK 1</b></h2>
 		    <div>
 		    	<p style="text-align: center;">
 					<img class="fancybox" src="images/nfl_performance_2015_week1_small.png" data-big="images/nfl_performance_2015_week1_large.png"/>
 		    	</p>
 		    </div>
-		    <h2 style="margin-bottom:0px;"><b>2015 NFL SUPERCONTEST</b></h2>
+<!-- 		    <h2 style="margin-bottom:0px;"><b>2015 NFL SUPERCONTEST</b></h2>
 		    <div>
 		    	<p style="text-align: center;">
-		    		<a href="https://www.westgatedestinations.com/nevada/las-vegas/westgate-las-vegas-hotel-casino/casino/supercontest" target="Supercontest" style="text-decoration:none; color:#c4001d;">Supercontest Standings</a>
+		    		<a href="https://www.westgatedestinations.com/nevada/las-vegas/westgate-las-vegas-hotel-casino/casino/supercontest" target="Supercontest" style="text-decoration:none; color:#c4001d;">SuperContest Standings</a>
 					<br><br>
 					<img class="fancybox" src="images/nfl_supercontest_2015_small.png" data-big="images/nfl_supercontest_2015_large.png"/>
 		    	</p>
-		    </div>
+		    </div> -->
 		    <h2 style="margin-bottom:0px;"><b>2015 COLLEGE FOOTBALL</b></h2>
 		    <div>
 		    	<p style="text-align: center;">
