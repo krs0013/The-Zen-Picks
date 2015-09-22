@@ -56,11 +56,12 @@
 	    </div>
 
 	    <h2><center><b><u>
-	    	Join us for the 2015-2016 season!  Please see our preseason special below (valid through 9/15/2015)
+	    	Join us for the 2015-2016 season!
 	    	<br><br>
 	    	Follow @TheZenPicks for day-to-day updates and progress
 	    	<br><br>
-	    	Football season is HERE.  Get your 2015 NFL and College season started off with our special season rate...(see below)
+	    	Vegas takes a little bit back in Week 2 with some inexplicable results but The Zen Picks
+	    	still show a strong performance for the season at 59%
 	    </u></b></center></h2>
 
 	    <!-- DIVIDER SPIRAL -->
@@ -80,9 +81,9 @@
 	    		You will never see ads or solicitations for "special" selections.
 
 	    		<h2 style="margin-bottom:0px;"><b>The Zen Picks 2015-2016 SEASON PASS</b></h2>
-	    		<h3 style="margin-top:0px; color: #c4001d;"><b>Preseason Special Rate through Sept 15, 2015</b></h3>
-	    		<h1 style="margin-top:0px; color: #c4001d;"><b>US $50</b></h1>
+	    		<h1 style="margin-top:0px; color: #c4001d;"><b>US $100</b></h1>
 
+	    		<!-- PAYPAL Button -->
 	    		<center>
 					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 						<input type="hidden" name="cmd" value="_s-xclick">
@@ -91,6 +92,7 @@
 						<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 					</form>
 				</center>
+
 	    	</p>
 	    </div>
 
@@ -110,10 +112,7 @@
 	    		Please follow the above link for more detailed current and past performance.
 		    	<br>
 		    	<br>
-				<img class="fancybox" src="images/college_football_2015_small.png" data-big="images/college_football_2015_large.png"/>
-		    	<br>
-		    	<br>
-				<img class="fancybox" src="images/nfl_performance_2015_week1_small.png" data-big="images/nfl_performance_2015_week1_large.png"/>
+				<img class="fancybox" src="images/nfl_football_graph_2015_small.png" data-big="images/nfl_football_graph_2015_large.png"/>
 	    	</p>
 	    </div>
 

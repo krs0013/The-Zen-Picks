@@ -66,25 +66,25 @@
 		    </div>
 
 		    <p style="text-align: center; color: #000040;">
-		    	INFORMATION ACCURATE AS OF: <span style="color:#c4001d;">September 3, 2015</span>
+		    	INFORMATION ACCURATE AS OF: <span style="color:#c4001d;">September 22, 2015</span>
 		    </p>
 
-		    <h2 style="margin-bottom:0px;"><b>2015 NFL SEASON</b></h2>
+<!-- 		    <h2 style="margin-bottom:0px;"><b>2015 NFL SEASON</b></h2>
 		    <div>
 		    	<p style="text-align: center;">
 					<img class="fancybox" src="images/nfl_football_graph_2015_small.png" data-big="images/nfl_football_graph_2015_large.png"/>
 		    	</p>
-		    </div>
-		    <h2 style="margin-bottom:0px;"><b>2015 NFL PRESEASON</b></h2>
+		    </div> -->
+<!-- 		    <h2 style="margin-bottom:0px;"><b>2015 NFL PRESEASON</b></h2>
 		    <div>
 		    	<p style="text-align: center;">
 					<img class="fancybox" src="images/nfl_preseason_2015_small.png" data-big="images/nfl_preseason_2015_large.png"/>
 		    	</p>
-		    </div>
-		    <h2 style="margin-bottom:0px;"><b>2015 NFL WEEK 1</b></h2>
+		    </div> -->
+		    <h2 style="margin-bottom:0px;"><b>2015 NFL WEEK 2</b></h2>
 		    <div>
 		    	<p style="text-align: center;">
-					<img class="fancybox" src="images/nfl_performance_2015_week1_small.png" data-big="images/nfl_performance_2015_week1_large.png"/>
+					<img class="fancybox" src="images/nfl_performance_2015_week2_small.png" data-big="images/nfl_performance_2015_week2_large.png"/>
 		    	</p>
 		    </div>
 <!-- 		    <h2 style="margin-bottom:0px;"><b>2015 NFL SUPERCONTEST</b></h2>
