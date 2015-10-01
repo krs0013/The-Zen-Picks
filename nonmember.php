@@ -55,14 +55,14 @@
 	    	<img src="images/divider.png" class="divider">
 	    </div>
 
-	    <h2><center><b><u>
+	    <h2><center><b>
 	    	Join us for the 2015-2016 season!
 	    	<br><br>
 	    	Follow @TheZenPicks for day-to-day updates and progress
 	    	<br><br>
 	    	Vegas takes a little bit back in Week 2 with some inexplicable results but The Zen Picks
 	    	still show a strong performance for the season at 59%
-	    </u></b></center></h2>
+	    </b></center></h2>
 
 	    <!-- DIVIDER SPIRAL -->
 	    <div style="text-align: center;">
